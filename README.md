@@ -14,7 +14,7 @@ No server, no database, no accounts, no cost. The whole thing is one Python file
 2. **Turn on GitHub Pages.** In your repo go to **Settings → Pages** and set **Source** to **GitHub Actions**.
 3. **Add your feeds.** Edit [`feeds.json`](feeds.json) (see below) and commit.
 4. **Run it once.** Open the **Actions** tab, pick **Build and publish digest**, and click **Run workflow**.
-5. Your page appears at `https://<your-username>.github.io/<repo-name>/` after the run finishes. It then refreshes itself every day.
+5. Your page appears at `https://bunker-commits.github.io/newsletter-digest/` after the run finishes. It then refreshes itself every day.
 
 ## Configure
 
@@ -33,9 +33,7 @@ Everything lives in `feeds.json`:
 }
 ```
 
-`days` is set to 5 by default here (rather than the general default of 14) so it comfortably covers the gap between twice-weekly runs, with a little buffer.
-
-**gpblog.com** isn't included yet — it doesn't appear to expose a public RSS feed in the usual places. If you find its feed URL, add it to `feeds.json` the same way as the others above.
+`days` is set to 5 by default here so it covers the gap between twice-weekly runs, with a little buffer.
 
 | Setting | Meaning | Default |
 | --- | --- | --- |
