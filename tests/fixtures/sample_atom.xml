@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Sample Atom</title>
+  <id>urn:sample-atom</id>
+  <updated>2026-09-26T10:00:00Z</updated>
+  <entry>
+    <title>Atom entry two</title>
+    <link href="https://atom.example.org/two"/>
+    <id>urn:entry-2</id>
+    <updated>2026-09-26T10:00:00Z</updated>
+    <summary>Summary from an Atom feed.</summary>
+  </entry>
+  <entry>
+    <title>Shared story (atom copy)</title>
+    <link href="https://example.com/shared"/>
+    <id>urn:entry-3</id>
+    <updated>2026-09-26T09:00:00Z</updated>
+    <content type="html">&lt;p&gt;Duplicate of the RSS story.&lt;/p&gt;</content>
+  </entry>
+</feed>

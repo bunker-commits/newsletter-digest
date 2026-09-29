@@ -1,0 +1,6 @@
+site/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+tests/fixtures/not_a_feed.txt

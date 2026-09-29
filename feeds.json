@@ -1,0 +1,10 @@
+{
+  "title": "Reading digest",
+  "days": 5,
+  "max_per_feed": 15,
+  "timezone": "Asia/Kolkata",
+  "feeds": [
+    { "name": "Where's Your Ed At", "url": "https://www.wheresyoured.at/rss/" },
+    { "name": "Farnam Street", "url": "https://fs.blog/feed/" }
+  ]
+}
